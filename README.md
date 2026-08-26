@@ -21,8 +21,6 @@ Results are plotted as a four-panel comparison, one panel per table size.
 
 ![Results](mexen%20resultaat%201.png)
 
-<!-- TODO: one sentence here stating what you concluded. The chart is in the repo but
-     the finding isn't written down anywhere, and that's the only thing a reader wants. -->
 
 ## Modelling notes
 
@@ -37,8 +35,7 @@ value and not swept.
 ## Scope
 
 This compares rules, not strategies — every player behaves identically. It tells you what
-a rule change does to the drink economy, not how to play better. The companion project
-[31enDeciphered](https://github.com/Thomas-Maas/31enDeciphered) does the strategy side.
+a rule change does to the drink economy, not how to play better. 
 
 ## Running it
 
@@ -47,8 +44,7 @@ pip install numpy matplotlib
 python mexen.py
 ```
 
-Parameters are set at the bottom of the file. The simulation logs every roll, which makes
-runs slow and noisy.
+Parameters are set at the bottom of the file. 
 
 ## Status
 
